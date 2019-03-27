@@ -1,0 +1,95 @@
+html, body {
+    background-color: gray;
+    font-family: 'Slabo 27px', serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+header {
+    border-color: black;
+    border-width: 0.125rem;
+    border-style: solid;
+    text-align: center;
+    padding-top: 0.625rem;
+}
+#main {
+}
+#title {
+    font-size: 3.125rem;
+    text-align: center;
+    padding-bottom: 0.625rem;
+}
+#img-div {
+    background-color: rgb(153, 151, 149);
+    padding-top: 1.25rem;
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=777b7dff&noise=626262&density=100&opacity=100');
+}
+#image {
+    width: 35%;
+    border-color: black;
+    border-width: 0.1875rem;
+    border-style: solid;
+    border-radius: 100%;
+    max-width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.25rem;
+}
+#img-caption {
+    text-align: center;
+    padding: 1.875rem;
+    font-size: 1.25rem;
+}
+#tribute-info {
+    width: 50%;
+    padding: 0.625rem;
+    margin: auto;
+    font-size: 1.125rem;
+}
+h2 {
+    text-align: center;
+    width: 80%;
+    padding: 0.625rem;
+    margin: auto;
+    font-size: 1.4rem;
+}
+ul {
+    list-style-type: none;
+}
+footer {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 0.625rem;
+}
+
+#tribute-link {
+    text-align: center;
+    font-size: 1rem;
+}
+.fieldset {
+    width:100%;
+    border:1.5px solid gray;
+    padding:10px;
+    margin: 20px auto;
+	font-size:1em;
+	margin-left: -30px;
+	
+}
+.fieldset span{
+    position:relative;
+    padding: 1px 2px;
+    font-weight: bold;
+    font-size: 1.25em;
+    top:-22px;
+    background-color:lightgray;
+}
+.fieldset p {
+    margin:-20px 0 0;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
